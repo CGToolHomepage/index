@@ -30,7 +30,7 @@ request({
 
 
 http.createServer(function (req, res){
-  // HTTP 서버 생성 request 는 요청이다 url 검색할때 사용, response 는 응답 페이지에 반영될때 사용
+  // HTTP 서버 생성 request 는 요청이다 url 뒷부분이고 그것을 통해 서버에 요청하는 것 , response 는 응답 페이지에 반영될때 사용
   var url = req.url;
 
   if(req.url == '/'  ){
